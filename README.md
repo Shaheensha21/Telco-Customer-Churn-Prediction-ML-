@@ -1,5 +1,5 @@
-***Telco Customer Churn Prediction using Machine Learning***
-**1. Project Objective**
+Telco Customer Churn Prediction using Machine Learning
+1. Project Objective
 
 The objective of this project is to predict customer churn in a telecom company using Machine Learning techniques.
 Customer churn refers to customers who discontinue their service, and predicting churn helps businesses take proactive retention actions.
@@ -12,7 +12,7 @@ Model comparison
 Final model selection
 Ready for deployment using Streamlit
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**2. Dataset Description**
+2. Dataset Description
 Dataset: Telco Customer Churn Dataset
 Source: Kaggle
 
@@ -29,7 +29,7 @@ Contract type
 Charges and tenure
 Some columns are irrelevant for prediction and require removal.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**3. Exploratory Data Analysis (Jupyter Work)**
+3. Exploratory Data Analysis (Jupyter Work)
 
 EDA was performed in Jupyter Notebook to understand the data and customer behavior.
 
@@ -49,7 +49,7 @@ Month-to-month contracts show significantly higher churn
 Customers with higher monthly charges are more likely to churn
 EDA helped guide feature selection and model choice.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**4. Data Preprocessing**
+4. Data Preprocessing
 
 Several preprocessing steps were applied to make the data model-ready:
 
@@ -64,7 +64,7 @@ Applied one-hot encoding to categorical variables
 Split data into training and testing sets (80/20 split)
 Used stratified sampling to preserve churn ratio.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**5. Machine Learning Models Used**
+5. Machine Learning Models Used
 
 Multiple models were trained and evaluated to identify the best performer.
 
@@ -75,7 +75,7 @@ Features were scaled using StandardScaler
 Provides interpretability and probabilistic outputs
 Purpose: Establish a simple benchmark for churn prediction.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Model 2: Decision Tree Classifier**
+Model 2: Decision Tree Classifier
 
 Captures non-linear relationships
 Easy to interpret
@@ -83,7 +83,7 @@ Can overfit if not controlled
 
 Purpose: Understand decision-based churn patterns.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-** Model 3: Random Forest Classifier**
+Model 3: Random Forest Classifier
 
 Ensemble of decision trees
 Handles feature interactions well
@@ -91,7 +91,7 @@ class_weight='balanced' used to address churn imbalance
 
 Purpose: Improve performance and generalization.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Model 4: XGBoost (Final Model)**
+Model 4: XGBoost (Final Model)
 
 Gradient boosting algorithm
 Handles non-linearity and class imbalance effectively
@@ -107,7 +107,7 @@ Highest ROC-AUC score
 Best recall for churned customers
 Better balance between precision and recall
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**6. Model Evaluation Metrics**
+6. Model Evaluation Metrics
 
 Models were evaluated using multiple metrics:
 Accuracy – Overall correctness
@@ -128,7 +128,7 @@ The following visualization compares different Machine Learning models using Acc
 </p>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**7. Streamlit Application Flow**
+7. Streamlit Application Flow
 
 The trained model can be deployed using Streamlit to create an interactive web app.
 
@@ -141,7 +141,7 @@ Churn probability is predicted
 Result is displayed in real time
 This allows business users to predict churn without ML knowledge.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Final Note:**
+Final Note:
 
 This project follows an industry-standard ML workflow, separating analysis, modeling,
 and deployment, making it scalable and production-ready.
