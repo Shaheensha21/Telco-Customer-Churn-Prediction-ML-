@@ -117,6 +117,16 @@ Classification Report – Precision, recall, F1-score
 Confusion Matrix – Visual performance analysis
 
 XGBoost achieved the best overall performance, especially in identifying churn customers.
+
+<h2>📊 Model Performance Comparison</h2>
+<p>
+The following visualization compares different Machine Learning models using Accuracy and ROC-AUC metrics.
+</p>
+
+<p align="center">
+  <img src="models/accuracy_auc_roc.png" width="600"/>
+</p>
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **7. Streamlit Application Flow**
 
@@ -143,6 +153,6 @@ MCA Graduate
 Machine Learning & Data Science Enthusiast
 ===================================================================================================================================================================================================================
 if you want to use my code try manually and import and do all process Thankyou!
-![XGBoost Confusion Matrix](models accuracy and auc-roc.png)
+
 
 
